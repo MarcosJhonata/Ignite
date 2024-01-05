@@ -2,11 +2,10 @@ import { Post } from './Post'
 export function App() {
   return (
      <div>
-     <Post />
-     <Post />
-     <Post />
-     <Post />
-     <Post />
+     <Post 
+     author="Marcos jhonata"
+     content="Treinamento react"
+     />
      </div>
   
   )
